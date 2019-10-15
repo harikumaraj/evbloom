@@ -1,0 +1,105 @@
+.sliderContainer {
+  height: 100%;
+  --bullet-background: #ffffff;
+  --bullet-background-active: #793757;
+}
+
+.introImage {
+  max-width: 100vh;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.introLogo {
+  position: absolute;
+  left: 5.5vw;
+  top: 6vh;
+  height: 6.5vh;
+  min-width: 36.5vw;
+}
+
+p {
+  margin: 0%;
+}
+
+.heading {
+  width: 100vw;
+  color: #ffffff;
+  font-family: nunito;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 35px;
+  text-align: start;
+  margin-bottom: 2.5vh;
+}
+
+.content-top {
+  position: absolute;
+  width: 100vw;
+  top: 17vh;
+  left: 0;
+  padding-left: 5.5vw;
+  padding-right: 5.5vw;
+}
+
+.content-bottom {
+  position: absolute;
+  padding-right: 11.4vw;
+  padding-left: 11.4vw;
+  left: 0;
+  bottom: 15vh;
+  width: 100vw;
+}
+
+.content-bottom-text {
+  margin-bottom: 2.5vh;
+}
+
+.content {
+  color: #ffffff;
+  font-family: Nunito Light;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+.polygon {
+  width: 100vw;
+  height: 70vh;
+  background-image: linear-gradient(90deg, #9b3cb7, #f23978);
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  //   -webkit-clip-path: polygon(0% 100%, 0% 100%, 100% 100%, 100% 50%, 0% 0%);
+  clip-path: polygon(0% 100%, 0% 100%, 100% 100%, 100% 35%, 0% 0%);
+}
+
+.square {
+  width: 100vw;
+  height: 45vh;
+  background-image: linear-gradient(90deg, #9b3cb7, #f23978);
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.slide-2 {
+  position: fixed;
+  left: 100vw;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.Slider-nav-button {
+  position: absolute;
+  bottom: 2vh;
+  right: 5vw;
+  color: #ffffff;
+  font-family: Nunito;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  background-color: rgba($color: #000000, $alpha: 0);
+}

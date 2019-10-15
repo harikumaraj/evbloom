@@ -1,0 +1,60 @@
+<ion-header>
+  <!-- <ion-toolbar>
+    <ion-title>
+      Intro
+    </ion-title>
+  </ion-toolbar> -->
+</ion-header>
+<!-- <button (click)="goToPage('/tabs/tab3')">
+      <span>Go to master Page</span>
+   </button> -->
+<ion-content fullscreen scroll-y="false">
+  <ion-slides class="sliderContainer" pager="true" [options]="slideOpts" #slider>
+    <ion-slide>
+      <div>
+        <img src="../../assets/images/introImage1.png" alt="intro image" class="introImage" />
+        <div class="square">
+          <div class="content-bottom">
+            <p class="content content-bottom-1">
+              EVbloom makes it easy to charge your car wherever you are using our community of home chargers.
+            </p>
+            <p class="content content-bottom-2">
+              Get paid while meeting other wonderful and ecologically conscientious drivers.
+            </p>
+          </div>
+        </div>
+        <img src="../../assets/images/logo.png" alt="icon" class="introLogo" />
+        <div class="content-top">
+          <p class="heading">Charging anxiety is a thing of the past</p>
+          <p class="content content-top-text">
+            EVbloom makes it easy to charge your car where ever you are using our community of home chargers.
+          </p>
+        </div>
+        <button class="Slider-nav-button" (click)="swipeNext(true)">Next</button>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="slide-2">
+        <img src="../../assets/images/introImage.png" alt="intro image" class="introImage" />
+        <div class="polygon">
+        </div>
+        <img src="../../assets/images/logo.png" alt="icon" class="introLogo" />
+        <div class="content-top">
+          <p class="heading">Join the community</p>
+          <p class="content content-top-text">
+            Share your home charger and access other home chargers in our community.
+          </p>
+        </div>
+        <div class="content-bottom">
+          <p class="content content-bottom-text">
+            Be part of our community reducing by half the emissions of the average gasoline car.
+          </p>
+          <p class="content">
+            Host other EV drivers, make a few bucks and meet some friends along the way. Never run out of charge again.
+          </p>
+        </div>
+        <button class="Slider-nav-button" (click)="swipeNext()">Get Started</button>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
